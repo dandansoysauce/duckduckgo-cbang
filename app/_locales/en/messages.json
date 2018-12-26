@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "duckduckgo cbang",
+    "description": "The name of the application"
+  },
+  "appShortName": {
+    "message": "duckcontextbangs",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the app's name."
+  },
+  "appDescription": {
+    "message": "DuckDuckGo Bangs on your context. Customize and mark your bangs as favorite from thousands of premade DuckDuckGo Bangs.",
+    "description": "The description of the application"
+  }
+}
