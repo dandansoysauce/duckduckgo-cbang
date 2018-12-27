@@ -24,6 +24,6 @@ DuckDuckGo Bangs on your context. Customize and mark your bangs as favorite from
 
 The build tool also defines a variable named `process.env.NODE_ENV` in your scripts. 
 
-## Docs
+## Tools
 
 * [webextension-toolbox](https://github.com/HaNdTriX/webextension-toolbox)
