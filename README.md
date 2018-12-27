@@ -1,6 +1,12 @@
-# duckduckgo cbang
+# ![icon](https://raw.githubusercontent.com/dandansoysauce/duckduckgo-cbang/master/app/images/icon-32.png "icon") DuckDuckGo !CBang
 
 DuckDuckGo Bangs on your context. Customize and mark your bangs as favorite from thousands of premade DuckDuckGo Bangs.
+
+Get this for Firefox!
+
+<a href="ttps://addons.mozilla.org/en-US/firefox/addon/duckduckgo-bangs-right-click/">
+    <img src="https://blog.mozilla.org/firefox/files/2017/11/FxA-Add-ons-Shopping-Extensions.png" width="150">
+</a>
 
 ## Install
 
