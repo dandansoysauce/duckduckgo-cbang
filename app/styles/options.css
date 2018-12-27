@@ -1,0 +1,45 @@
+html, body {
+    overflow: hidden;
+}
+
+.search-input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.available-bangs {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+
+.faved-bangs {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+li {
+    font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+    border-bottom: 1px solid #ccc;
+
+    -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+
+li:last-child {
+    border: none;
+}
+
+li:hover {
+    font-size: 30px;
+    background: #f6f6f6;
+}

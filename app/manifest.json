@@ -40,9 +40,8 @@
   ],
   "permissions": [
     "contextMenus",
-    "contextualIdentities",
     "storage",
-    "webRequest",
-    "webRequestBlocking"
+    "<all_urls>",
+    "search"
   ]
 }
