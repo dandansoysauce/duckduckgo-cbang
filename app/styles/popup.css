@@ -1,0 +1,76 @@
+html, body {
+    overflow: hidden;
+    max-width: 600px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 1em 0 0.5em 0;
+	color: #343434;
+	font-weight: normal;
+	font-family: 'Orienta', sans-serif;
+}
+
+h2 {
+    margin-top: 10px;
+    font-size: 32px;
+	line-height: 40px;
+}
+
+.search-input {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+hr {
+    border-top: 1px solid #8c8b8b;
+	border-bottom: 1px solid #fff;
+}
+
+.available-bangs {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+.faved-bangs {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-height: 100px;
+    overflow-y: auto;
+}
+
+.faved-bangs li {
+    font: 100 10px/1.5 Helvetica, Verdana, sans-serif;
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+}
+
+.faved-bangs li:nth-child(odd) { background: rgb(248, 248, 248); }
+
+.faved-bangs li:last-child {
+    border: none;
+}
+
+.available-bangs li {
+    font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+
+    -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+
+.available-bangs li:last-child {
+    border: none;
+}
+
+.available-bangs li:hover {
+    font-size: 30px;
+    background: #f6f6f6;
+}

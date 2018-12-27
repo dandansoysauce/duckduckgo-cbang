@@ -2,7 +2,7 @@
   "name": "DuckDuckGo Contextual Bangs",
   "short_name": "__MSG_appShortName__",
   "description": "__MSG_appDescription__",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "manifest_version": 2,
   "default_locale": "en",
   "icons": {
@@ -35,13 +35,14 @@
       "all_frames": false
     }
   ],
-  "web_accessible_resources": [
-    "resources/bangs.json"
-  ],
+  "browser_action": {
+    "default_icon": "images/icon-38.png",
+    "default_title": "DuckDuckGo !CBang",
+    "default_popup": "pages/popup.html"
+  },
   "permissions": [
     "contextMenus",
     "storage",
-    "<all_urls>",
     "search"
   ]
 }

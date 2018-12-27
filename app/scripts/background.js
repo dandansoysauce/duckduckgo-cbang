@@ -17,6 +17,7 @@ browser.contextMenus.removeAll().then(() => {
 
 browser.runtime.onInstalled.addListener((details) => {
   console.log('previousVersion', details.previousVersion)
+  browser.runtime.openOptionsPage()
 })
 
 browser.storage.onChanged.addListener(deets => {
