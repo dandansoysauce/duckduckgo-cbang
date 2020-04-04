@@ -4,7 +4,7 @@ DuckDuckGo Bangs on your context. Customize and mark your bangs as favorite from
 
 **Get this for Firefox!**
 
-<a href="https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-bangs-right-click/">
+<a href="https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-right-click/">
     <img src="https://blog.mozilla.org/firefox/files/2017/11/FxA-Add-ons-Shopping-Extensions.png" width="150">
 </a>
 
