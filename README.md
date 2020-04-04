@@ -1,6 +1,6 @@
 # ![icon](https://raw.githubusercontent.com/dandansoysauce/duckduckgo-cbang/master/app/images/icon-32.png "icon") DuckDuckGo !CBang
 
-DuckDuckGo Bangs on your context. Customize and mark your bangs as favorite from thousands of premade DuckDuckGo Bangs.
+This is an **unofficial** DuckDuckGo addon for your browsers. DuckDuckGo Bangs on your context. Customize and mark your bangs as favorite from thousands of premade DuckDuckGo Bangs.
 
 **Get this for Firefox!**
 
