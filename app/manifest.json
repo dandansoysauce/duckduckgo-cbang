@@ -1,8 +1,8 @@
 {
-  "name": "DuckDuckGo Contextual Bangs",
+  "name": "!CBang for DuckDuckGo - Bangs on Right Click",
   "short_name": "__MSG_appShortName__",
   "description": "__MSG_appDescription__",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "manifest_version": 2,
   "default_locale": "en",
   "icons": {
@@ -37,7 +37,7 @@
   ],
   "browser_action": {
     "default_icon": "images/icon-38.png",
-    "default_title": "DuckDuckGo !CBang",
+    "default_title": "!CBang for DuckDuckGo - Bangs on Right Click",
     "default_popup": "pages/popup.html"
   },
   "permissions": [
