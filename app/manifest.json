@@ -2,7 +2,7 @@
   "name": "!CBang for DuckDuckGo - Bangs on Right Click",
   "short_name": "__MSG_appShortName__",
   "description": "__MSG_appDescription__",
-  "version": "1.2.2",
+  "version": "2.0.0",
   "manifest_version": 2,
   "default_locale": "en",
   "icons": {
@@ -19,22 +19,20 @@
     "page": "pages/options.html",
     "chrome_style": true
   },
-  "content_scripts": [
-    {
-      "matches": [
-        "http://*/*",
-        "https://*/*"
-      ],
-      "css": [
-        "styles/contentscript.css"
-      ],
-      "js": [
-        "scripts/contentscript.js"
-      ],
-      "run_at": "document_end",
-      "all_frames": false
-    }
-  ],
+  "content_scripts": [{
+    "matches": [
+      "http://*/*",
+      "https://*/*"
+    ],
+    "css": [
+      "styles/contentscript.css"
+    ],
+    "js": [
+      "scripts/contentscript.js"
+    ],
+    "run_at": "document_end",
+    "all_frames": false
+  }],
   "browser_action": {
     "default_icon": "images/icon-38.png",
     "default_title": "!CBang for DuckDuckGo - Bangs on Right Click",

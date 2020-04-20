@@ -4,22 +4,43 @@
 <head>
     <meta charset="utf-8" />
     <title>Options</title>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
     <link rel="stylesheet" type="text/css" href="../styles/popup.css">
+    <link rel="stylesheet" type="text/css" href="../styles/pretty-checkbox.min.css">
 </head>
 
 <body>
-    <h2>!Contextual Bangs for DuckDuckGo</h2>
-    <div>
-        <h5>Favorites</h5>
-        <hr />
-        <ul id="fave-bangs" class="faved-bangs"></ul>
-    </div>
-    <div class="availables-containter">
-        <h5>Available Bangs</h5>
-        <hr />
-        <input id="search-input" class="search-input" placeholder="Search..." />
-        <ul id="availables" class="available-bangs"></ul>
-    </div>
+    <article>
+        <div class="box header">
+            <img src="../images/icon-32.png">
+            <span class="heading-main">!CBang for DuckDuckGo</span>
+        </div>
+        <main>
+            <div class="main-container">
+                <div class="flex-item">
+                    <div class="item-header">
+                        <p>BOOKMARKED</p>
+                        <hr class="item-header-hr">
+                    </div>
+                    <div id="fave-bangs" class="fave-items-container">
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="item-header">
+                        <p>!BANGS</p>
+                        <hr class="item-header-hr">
+                    </div>
+                    <input style="margin-left: 8px !important; width: 80%; margin-bottom: 2px !important;" 
+                        type="text" id="search-input" placeholder="Search..." class="search-text" />
+                    <div id="availables" class="avail-items-container" style="overflow-x: hidden;">
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <style>.bmc-button img{height: 34px !important;width: 35px !important;margin-bottom: 1px !important;box-shadow: none !important;border: none !important;vertical-align: middle !important;}.bmc-button{padding: 7px 10px 7px 10px !important;line-height: 35px !important;height:51px !important;min-width:217px !important;text-decoration: none !important;display:inline-flex !important;color:#FFFFFF !important;background-color:#FF813F !important;border-radius: 5px !important;border: 1px solid transparent !important;padding: 7px 10px 7px 10px !important;font-size: 28px !important;letter-spacing:0.6px !important;box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;margin: 0 auto !important;font-family:'Cookie', cursive !important;-webkit-box-sizing: border-box !important;box-sizing: border-box !important;-o-transition: 0.3s all linear !important;-webkit-transition: 0.3s all linear !important;-moz-transition: 0.3s all linear !important;-ms-transition: 0.3s all linear !important;transition: 0.3s all linear !important;}.bmc-button:hover, .bmc-button:active, .bmc-button:focus {-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;text-decoration: none !important;box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;opacity: 0.85 !important;color:#FFFFFF !important;}</style><link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet"><a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/WLmhc53q0"><img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee"><span style="margin-left:15px;font-size:28px !important;">Buy me a coffee</span></a>
+        </footer>
+    </article>
     <script type="text/javascript" src="../scripts/options.js"></script>
 </body>
 
