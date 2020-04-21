@@ -2,7 +2,7 @@
   "name": "!CBang for DuckDuckGo - Bangs on Right Click",
   "short_name": "__MSG_appShortName__",
   "description": "__MSG_appDescription__",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "manifest_version": 2,
   "default_locale": "en",
   "icons": {

@@ -23,7 +23,7 @@ function appendFaves(faveObj) {
     newLi.id = faveObj.id
     newLi.dataset.bang = faveObj.bang
     newLi.className = 'items-body-content'
-    newLi.innerHTML += faveObj.name
+    newLi.appendChild(document.createTextNode(faveObj.name))
     ulBangs.appendChild(newLi)
 }
 
@@ -56,7 +56,7 @@ function appendList(bangsData) {
         stateContainer.classList.add('state')
 
         let innerString = element.bang + ' | ' + element.name
-        newLabel.innerHTML += innerString.substring(0, 32) + '...';
+        newLabel.appendChild(document.createTextNode(innerString.substring(0, 32) + '...'))
         newLabel.title = element.name
 
         checkbox.id = element.bang
@@ -256,7 +256,7 @@ document.addEventListener("DOMContentLoaded", restoreOptions);
 
             this._dragItem = document.createElement(item.tagName);
             this._dragItem.className = "dragging";
-            this._dragItem.innerHTML = item.innerHTML;
+            this._dragItem.appendChild(document.createTextNode(item.innerHTML));
             this._dragItem.style["position"] = "absolute";
             this._dragItem.style["z-index"] = "999";
             this._dragItem.style["left"] = (item.offsetLeft || 0) + "px";

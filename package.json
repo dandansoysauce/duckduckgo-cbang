@@ -1,6 +1,6 @@
 {
   "name": "duckduckgo-cbang",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "DuckDuckGo Bangs on your context. Customize and mark your bangs as favorite from thousands of premade DuckDuckGo Bangs.",
   "scripts": {
     "dev": "webextension-toolbox dev",
